@@ -1,8 +1,0 @@
-{
-  "routes": [
-    {
-      "path": "/menu",
-      "description": "Show menu"
-    }
-  ]
-}
