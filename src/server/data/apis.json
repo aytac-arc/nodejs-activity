@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "path": "/menu",
+      "method": "GET",
+      "description": "Show menu"
+    },
+    {
+      "path": "/orders",
+      "method": "GET",
+      "description": "List all orders"
+    },
+    {
+      "path": "/order/{orderId}",
+      "method": "POST",
+      "description": "Add an order"
+    },
+    {
+      "path": "/order/{orderId}",
+      "method": "PUT",
+      "description": "Update an order"
+    },
+    {
+      "path": "/order/{orderId}",
+      "method": "DELETE",
+      "description": "Remove an order"
+    }
+  ]
+}

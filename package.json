@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-activity",
+  "version": "1.0.0",
+  "description": "NodeJS Activity",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src/server --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "npm run build && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aytac-arc/nodejs-activity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aytac-arc/nodejs-activity/issues"
+  },
+  "homepage": "https://github.com/aytac-arc/nodejs-activity#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.4",
+    "uuid": "^3.1.0"
+  }
+}
