@@ -15,7 +15,7 @@ npm install
 ```
 npm start
 ```
-4) Endpoints are now up. (Refer below for the list of endpoints)
+4) Endpoints are now up. [List endpoints](#endpoints)
 
 ## Endpoints
 1) List menu
